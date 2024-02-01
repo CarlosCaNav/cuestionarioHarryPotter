@@ -1,0 +1,94 @@
+{
+  "preguntas": [
+    {
+      "pregunta": "¿Qué cualidad valoras más en ti mismo?",
+      "respuestas": [
+        {"opcion": "Valentía", "puntos": 3, "casa": "Gryffindor"},
+        {"opcion": "Inteligencia", "puntos": 3, "casa": "Ravenclaw"},
+        {"opcion": "Lealtad", "puntos": 3, "casa": "Hufflepuff"},
+        {"opcion": "Astucia", "puntos": 3, "casa": "Slytherin"}
+      ]
+    },
+    {
+      "pregunta": "¿Qué tipo de mascota te gustaría tener en Hogwarts?",
+      "respuestas": [
+        {"opcion": "Lechuza", "puntos": 2, "casa": "Ravenclaw"},
+        {"opcion": "Gato", "puntos": 2, "casa": "Slytherin"},
+        {"opcion": "Sapo", "puntos": 2, "casa": "Hufflepuff"},
+        {"opcion": "Búho", "puntos": 2, "casa": "Gryffindor"}
+      ]
+    },
+    {
+      "pregunta": "¿Qué tipo de desafíos prefieres enfrentar?",
+      "respuestas": [
+        {"opcion": "Coraje", "puntos": 3, "casa": "Gryffindor"},
+        {"opcion": "Resolver problemas", "puntos": 3, "casa": "Ravenclaw"},
+        {"opcion": "Demostrar lealtad", "puntos": 3, "casa": "Hufflepuff"},
+        {"opcion": "Usar astucia", "puntos": 3, "casa": "Slytherin"}
+      ]
+    },
+    {
+      "pregunta": "¿Cómo te gusta pasar tu tiempo libre?",
+      "respuestas": [
+        {"opcion": "Explorando", "puntos": 2, "casa": "Gryffindor"},
+        {"opcion": "Leyendo", "puntos": 2, "casa": "Ravenclaw"},
+        {"opcion": "Ayudando a otros", "puntos": 2, "casa": "Hufflepuff"},
+        {"opcion": "Planeando", "puntos": 2, "casa": "Slytherin"}
+      ]
+    },
+    {
+      "pregunta": "¿Qué cualidad crees que es más importante en un amigo?",
+      "respuestas": [
+        {"opcion": "Valentía", "puntos": 1, "casa": "Gryffindor"},
+        {"opcion": "Inteligencia", "puntos": 1, "casa": "Ravenclaw"},
+        {"opcion": "Lealtad", "puntos": 1, "casa": "Hufflepuff"},
+        {"opcion": "Astucia", "puntos": 1, "casa": "Slytherin"}
+      ]
+    },
+    {
+      "pregunta": "¿Qué color te gusta más?",
+      "respuestas": [
+        {"opcion": "Rojo", "puntos": 1, "casa": "Gryffindor"},
+        {"opcion": "Azul", "puntos": 1, "casa": "Ravenclaw"},
+        {"opcion": "Amarillo", "puntos": 1, "casa": "Hufflepuff"},
+        {"opcion": "Verde", "puntos": 1, "casa": "Slytherin"}
+      ]
+    },
+    {
+      "pregunta": "¿Qué asignatura te resulta más interesante?",
+      "respuestas": [
+        {"opcion": "Defensa contra las Artes Oscuras", "puntos": 2, "casa": "Gryffindor"},
+        {"opcion": "Adivinación", "puntos": 2, "casa": "Ravenclaw"},
+        {"opcion": "Herbología", "puntos": 2, "casa": "Hufflepuff"},
+        {"opcion": "Pociones", "puntos": 2, "casa": "Slytherin"}
+      ]
+    },
+    {
+      "pregunta": "¿Qué tipo de líder admirarías más?",
+      "respuestas": [
+        {"opcion": "Inspirador de valentía", "puntos": 2, "casa": "Gryffindor"},
+        {"opcion": "Sabio y estratégico", "puntos": 2, "casa": "Ravenclaw"},
+        {"opcion": "Leal y justo", "puntos": 2, "casa": "Hufflepuff"},
+        {"opcion": "Ambicioso y logra grandes cosas", "puntos": 2, "casa": "Slytherin"}
+      ]
+    },
+    {
+      "pregunta": "¿Qué tipo de magia te gustaría aprender primero?",
+      "respuestas": [
+        {"opcion": "Hechizos de combate", "puntos": 1, "casa": "Gryffindor"},
+        {"opcion": "Hechizos complejos", "puntos": 1, "casa": "Ravenclaw"},
+        {"opcion": "Hechizos de protección", "puntos": 1, "casa": "Hufflepuff"},
+        {"opcion": "Hechizos que den ventaja", "puntos": 1, "casa": "Slytherin"}
+      ]
+    },
+    {
+      "pregunta": "¿Cuál es tu lugar favorito en Hogwarts?",
+      "respuestas": [
+        {"opcion": "Campo de Quidditch", "puntos": 1, "casa": "Gryffindor"},
+        {"opcion": "Biblioteca", "puntos": 1, "casa": "Ravenclaw"},
+        {"opcion": "Invernadero de Herbología", "puntos": 1, "casa": "Hufflepuff"},
+        {"opcion": "Mazmorras", "puntos": 1, "casa": "Slytherin"}
+      ]
+    }
+  ]
+}
