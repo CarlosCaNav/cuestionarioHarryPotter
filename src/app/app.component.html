@@ -1,14 +1,19 @@
 <h3>Cuestionario de Harry Potter 🧙🪄</h3>
 
-<div *ngFor="let cada_pregunta of cuestionario.preguntas">
-  <span>{{cada_pregunta.pregunta}}</span>
-
-  <div *ngFor="let respuesta of cada_pregunta.respuestas">
-    <span>*
+<div *ngIf="this.indice_pregunta < this.cuestionario.preguntas.length">
+{{cuestionario.preguntas[indice_pregunta].pregunta}}
+  <div *ngFor="let respuesta of cuestionario.preguntas[indice_pregunta].respuestas; let i = index">
+    <span>{{i+1}}
       <button (click)="elegirRespuesta(respuesta.casa, respuesta.puntos)">
         {{respuesta.opcion}}
       </button>
     </span>
   </div>
+</div>
 
+
+<div *ngIf="this.indice_pregunta > this.cuestionario.preguntas.length -1">
+<div *ngFor="let x of mapa_puntuaciones | keyvalue">
+  La casa {{x.key}} tiene {{x.value}} puntos.
+</div>
 </div>

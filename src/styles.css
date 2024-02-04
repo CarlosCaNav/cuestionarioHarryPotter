@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+.cuestionario{
+    margin-left: calc(50vw - 170px);
+    margin-top: calc(50vh - 250px);
+    height: 200px;
+    width: 300px;
+    border: 2px solid green;
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: 0 0 20vw 50px green, inset 0 0 10px 5px green, 0 0 5vw 5px red;
+
+}

@@ -19,6 +19,7 @@ export class AppComponent {
   };
 
   variable_temporal_para_imprimir: any = this.imprimir_cuestionario();
+  indice_pregunta: number = 0;
 
   imprimir_cuestionario() {
     console.log(this.cuestionario);
@@ -31,6 +32,21 @@ export class AppComponent {
       this.mapa_puntuaciones[casa] += puntos;
     }
 
-    console.log(this.mapa_puntuaciones);
+    if (this.indice_pregunta < this.cuestionario.preguntas.length - 1) {
+      this.indice_pregunta++;
+    }
+    else {
+      this.indice_pregunta = this.cuestionario.preguntas.length;
+      console.log("HAS TERMINADO!!!!");
+/* 
+      for (var i = 0; i < this.cuestionario.preguntas.length; i++) {
+        console.log("mas puntos " + Math.max(+= i));
+      } */
+
+
+      console.log(this.cuestionario.preguntas.length);
+      console.log(this.mapa_puntuaciones);
+      /* console.log(Math.max(...mapa_puntuaciones[casa])); */
+    }
   }
 }
